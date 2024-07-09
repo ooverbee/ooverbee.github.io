@@ -1,0 +1,220 @@
+.content-list2-container {
+  width: 100%;
+  height: 992px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+.content-list2-max-width {
+  width: 100%;
+  display: flex;
+  max-width: 1400px;
+  align-items: center;
+  flex-direction: column;
+}
+.content-list2-content {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.content-list2-li {
+  align-items: flex-start;
+}
+.content-list2-heading1 {
+  align-self: flex-start;
+}
+.content-list2-ul1 {
+  align-items: flex-start;
+  padding-left: var(--dl-space-space-fiveunits);
+}
+.content-list2-li01 {
+  padding-bottom: var(--dl-space-space-tripleunit);
+}
+.content-list2-heading2 {
+  color: #076caf;
+  font-size: 20px;
+  font-style: normal;
+  font-family: "Playfair Display";
+  font-weight: 600;
+  text-decoration: none;
+}
+.content-list2-heading2:hover {
+  color: #238bd2;
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: underline       none;
+}
+.content-list2-content2 {
+  font-size: 20px;
+}
+.content-list2-li02 {
+  padding-bottom: var(--dl-space-space-tripleunit);
+}
+.content-list2-heading3 {
+  color: #076caf;
+  font-size: 20px;
+  font-style: normal;
+  font-family: "Playfair Display";
+  font-weight: 600;
+  text-decoration: none;
+}
+.content-list2-heading3:hover {
+  color: #238bd2;
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: underline       none;
+}
+.content-list2-content3 {
+  font-size: 20px;
+}
+.content-list2-li03 {
+  padding-bottom: var(--dl-space-space-tripleunit);
+}
+.content-list2-heading4 {
+  color: #076caf;
+  font-size: 20px;
+  font-style: normal;
+  font-family: "Playfair Display";
+  font-weight: 600;
+  text-decoration: none;
+}
+.content-list2-heading4:hover {
+  color: #238bd2;
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: underline       none;
+}
+.content-list2-content4 {
+  font-size: 20px;
+}
+.content-list2-li04 {
+  padding-bottom: var(--dl-space-space-tripleunit);
+}
+.content-list2-heading5 {
+  color: #076caf;
+  font-size: 20px;
+  font-style: normal;
+  font-family: "Playfair Display";
+  font-weight: 600;
+  text-decoration: none;
+}
+.content-list2-heading5:hover {
+  color: #238bd2;
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: underline       none;
+}
+.content-list2-content5 {
+  font-size: 20px;
+}
+.content-list2-li05 {
+  padding-bottom: var(--dl-space-space-tripleunit);
+}
+.content-list2-heading6 {
+  color: #076caf;
+  font-size: 20px;
+  font-style: normal;
+  font-family: "Playfair Display";
+  font-weight: 600;
+  text-decoration: none;
+}
+.content-list2-heading6:hover {
+  color: #238bd2;
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: underline       none;
+}
+.content-list2-content6 {
+  font-size: 20px;
+}
+.content-list2-li06 {
+  padding-bottom: var(--dl-space-space-tripleunit);
+}
+.content-list2-heading8 {
+  color: #076caf;
+  font-size: 20px;
+  font-style: normal;
+  font-family: "Playfair Display";
+  font-weight: 600;
+  text-decoration: none;
+}
+.content-list2-heading8:hover {
+  color: #238bd2;
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: underline       none;
+}
+.content-list2-content8 {
+  font-size: 20px;
+}
+.content-list2-li07 {
+  padding-bottom: var(--dl-space-space-tripleunit);
+}
+.content-list2-heading9 {
+  color: #076caf;
+  font-size: 20px;
+  font-style: normal;
+  font-family: "Playfair Display";
+  font-weight: 600;
+  text-decoration: none;
+}
+.content-list2-heading9:hover {
+  color: #238bd2;
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: underline       none;
+}
+.content-list2-content9 {
+  font-size: 20px;
+}
+.content-list2-li08 {
+  padding-bottom: var(--dl-space-space-tripleunit);
+}
+.content-list2-heading91 {
+  color: #076caf;
+  font-size: 20px;
+  font-style: normal;
+  font-family: "Playfair Display";
+  font-weight: 600;
+  text-decoration: none;
+}
+.content-list2-heading91:hover {
+  color: #238bd2;
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: underline       none;
+}
+.content-list2-content91 {
+  font-size: 20px;
+}
+.content-list2-li09 {
+  padding-bottom: var(--dl-space-space-tripleunit);
+}
+.content-list2-heading92 {
+  color: #076caf;
+  font-size: 20px;
+  font-style: normal;
+  transition: 0.3s;
+  font-family: "Playfair Display";
+  font-weight: 600;
+  text-decoration: none;
+}
+.content-list2-heading92:hover {
+  color: #238bd2;
+  font-style: normal;
+  font-weight: 600;
+  text-decoration:        none;
+}
+.content-list2-content92 {
+  font-size: 20px;
+}
+@media(max-width: 767px) {
+  .content-list2-ul1 {
+    padding-left: 48px;
+  }
+}
+@media(max-width: 479px) {
+  .content-list2-ul1 {
+    padding-left: 24px;
+  }
+}
