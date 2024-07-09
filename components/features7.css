@@ -10,6 +10,7 @@
   justify-content: flex-start;
 }
 .features7-text {
+  font-size: 32px;
   font-family: "Playfair Display";
   padding-bottom: var(--dl-space-space-tripleunit);
 }
