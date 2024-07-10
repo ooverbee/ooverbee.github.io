@@ -1931,6 +1931,7 @@
 .home-link {
   color: #ffffff;
   font-size: 22px;
+  transition: 0.3s;
   font-family: "Helvetica";
   font-weight: 700;
   line-height: 1.55;
@@ -1938,10 +1939,15 @@
   margin-right: var(--dl-space-space-tripleunit);
   text-transform: none;
   text-decoration: none;
+}
+.home-link:hover {
+  fill: var(--dl-color-sarah-e6f5f9);
+  color: var(--dl-color-sarah-e6f5f9);
 }
 .home-link1 {
   color: #ffffff;
   font-size: 22px;
+  transition: 0.3s;
   font-family: "Helvetica";
   font-weight: 700;
   line-height: 1.55;
@@ -1949,10 +1955,15 @@
   margin-right: var(--dl-space-space-tripleunit);
   text-transform: none;
   text-decoration: none;
+}
+.home-link1:hover {
+  fill: var(--dl-color-sarah-e6f5f9);
+  color: var(--dl-color-sarah-e6f5f9);
 }
 .home-link2 {
   color: #ffffff;
   font-size: 22px;
+  transition: 0.3s;
   font-family: "Helvetica";
   font-weight: 700;
   line-height: 1.55;
@@ -1961,9 +1972,14 @@
   text-transform: none;
   text-decoration: none;
 }
+.home-link2:hover {
+  fill: var(--dl-color-sarah-e6f5f9);
+  color: var(--dl-color-sarah-e6f5f9);
+}
 .home-link3 {
   color: #ffffff;
   font-size: 22px;
+  transition: 0.3s;
   font-family: "Helvetica";
   font-weight: 700;
   line-height: 1.55;
@@ -1972,9 +1988,14 @@
   text-transform: none;
   text-decoration: none;
 }
+.home-link3:hover {
+  fill: var(--dl-color-sarah-e6f5f9);
+  color: var(--dl-color-sarah-e6f5f9);
+}
 .home-link4 {
   color: #ffffff;
   font-size: 22px;
+  transition: 0.3s;
   font-family: "Helvetica";
   font-weight: 700;
   line-height: 1.55;
@@ -1982,6 +2003,10 @@
   padding-right: var(--dl-space-space-tripleunit);
   text-transform: none;
   text-decoration: none;
+}
+.home-link4:hover {
+  fill: var(--dl-color-sarah-e6f5f9);
+  color: var(--dl-color-sarah-e6f5f9);
 }
 .home-burger-menu {
   display: none;
@@ -2087,9 +2112,9 @@
   font-weight: 900;
   line-height: 1.22;
   padding-top: var(--dl-space-space-unit);
-  padding-left: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-doubleunit);
   border-radius: var(--dl-radius-radius-cardradius);
-  padding-right: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-doubleunit);
   letter-spacing: 1px;
   padding-bottom: var(--dl-space-space-unit);
   text-transform: none;
