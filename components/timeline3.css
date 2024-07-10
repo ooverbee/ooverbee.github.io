@@ -14,7 +14,7 @@
   height: 411px;
   display: flex;
   position: relative;
-  max-width: 1400px;
+  max-width: 100%;
   align-self: center;
   align-items: flex-end;
   flex-direction: column;
@@ -36,7 +36,7 @@
   height: 100%;
   font-size: 32px;
   text-align: center;
-  font-family: "Playfair Display";
+  font-family: "Didot-Bold";
 }
 .timeline3-timeline-container {
   width: 100%;
@@ -109,9 +109,11 @@
 .timeline3-text01 {
   width: 100%;
   text-align: center;
+  font-family: "Helvetica";
 }
 .timeline3-text02 {
   font-size: 22px;
+  font-family: "HelveticaRounded-Bold";
 }
 .timeline3-step3 {
   width: 10%;
@@ -166,9 +168,11 @@
 .timeline3-text03 {
   width: 100%;
   text-align: center;
+  font-family: "Helvetica";
 }
 .timeline3-text04 {
   font-size: 22px;
+  font-family: "HelveticaRounded-Bold";
 }
 .timeline3-step5 {
   width: 10%;
@@ -226,9 +230,11 @@
 .timeline3-text05 {
   width: 100%;
   text-align: center;
+  font-family: "Helvetica";
 }
 .timeline3-text06 {
   font-size: 22px;
+  font-family: "HelveticaRounded-Bold";
 }
 .timeline3-step7 {
   width: 10%;
@@ -323,10 +329,12 @@
 }
 .timeline3-text07 {
   font-size: 22px;
+  font-family: "HelveticaRounded-Bold";
 }
 .timeline3-text08 {
   width: 100%;
   text-align: center;
+  font-family: "Helvetica";
 }
 .timeline3-step21 {
   width: 10%;
@@ -448,10 +456,12 @@
 }
 .timeline3-text09 {
   font-size: 22px;
+  font-family: "HelveticaRounded-Bold";
 }
 .timeline3-text10 {
   width: 100%;
   text-align: center;
+  font-family: "Helvetica";
 }
 .timeline3-step41 {
   width: 10%;
@@ -573,10 +583,12 @@
 }
 .timeline3-text11 {
   font-size: 22px;
+  font-family: "HelveticaRounded-Bold";
 }
 .timeline3-text12 {
   width: 100%;
   text-align: center;
+  font-family: "Helvetica";
 }
 .timeline3-step61 {
   width: 10%;
@@ -698,10 +710,12 @@
 }
 .timeline3-text13 {
   font-size: 22px;
+  font-family: "HelveticaRounded-Bold";
 }
 .timeline3-text14 {
   width: 100%;
   text-align: center;
+  font-family: "Helvetica";
 }
 @media(max-width: 767px) {
   .timeline3-timeline-container {

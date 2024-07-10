@@ -17,6 +17,8 @@
 .timeline7-text {
   font-size: 32px;
   text-align: center;
+  font-family: "Didot-Bold";
+  letter-spacing: 1px;
 }
 .timeline7-timeline-container {
   flex: 1;
@@ -75,6 +77,7 @@
 .timeline7-text01 {
   font-size: 20px;
   font-style: italic;
+  font-family: "Helvetica-BoldOblique";
   font-weight: 600;
 }
 .timeline7-container05 {
@@ -87,15 +90,19 @@
 .timeline7-text02 {
   align-self: flex-end;
   text-align: left;
+  font-family: "Didot-Bold";
   padding-right: var(--dl-space-space-unit);
+  letter-spacing: 1px;
 }
 .timeline7-text03 {
   font-size: 18px;
   align-self: flex-end;
   font-style: normal;
+  font-family: "Didot-Bold";
   font-weight: 600;
   padding-right: var(--dl-space-space-unit);
-  padding-bottom: var(--dl-space-space-unit);
+  letter-spacing: 1px;
+  padding-bottom: var(--dl-space-space-halfunit);
 }
 .timeline7-icon {
   width: 24px;
@@ -106,24 +113,36 @@
   font-size: 16px;
   align-self: flex-end;
   font-style: normal;
+  font-family: "Didot-Bold";
   font-weight: 600;
   line-height: 1.5;
-  padding-bottom: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
 }
 .timeline7-text05 {
-  width: 90%;
-  font-size: 20px;
-  align-self: flex-start;
+  font-size: 16px;
+  align-self: flex-end;
   font-style: normal;
-  font-weight: 500;
+  font-family: "Didot-Bold";
+  font-weight: 600;
   line-height: 1.5;
-  padding-bottom: 0px;
+  letter-spacing: 1px;
+  padding-bottom: var(--dl-space-space-halfunit);
 }
 .timeline7-text06 {
   width: 90%;
   font-size: 16px;
   align-self: flex-start;
   font-style: normal;
+  font-family: "HelveticaRounded-Bold";
+  font-weight: 500;
+  line-height: 1.5;
+  padding-bottom: 0px;
+}
+.timeline7-text07 {
+  width: 90%;
+  align-self: flex-start;
+  font-style: normal;
+  font-family: "Helvetica";
   font-weight: 400;
   line-height: 1.5;
   padding-bottom: var(--dl-space-space-tripleunit);
@@ -174,9 +193,10 @@
   padding-bottom: var(--dl-space-space-unit);
   justify-content: flex-start;
 }
-.timeline7-text07 {
+.timeline7-text08 {
   font-size: 20px;
   font-style: italic;
+  font-family: "Helvetica-BoldOblique";
   font-weight: 600;
 }
 .timeline7-container09 {
@@ -186,45 +206,62 @@
   align-items: center;
   justify-content: flex-start;
 }
-.timeline7-text08 {
+.timeline7-text09 {
   align-self: flex-end;
   text-align: left;
+  font-family: "Didot-Bold";
   padding-right: var(--dl-space-space-unit);
+  letter-spacing: 1px;
 }
-.timeline7-text09 {
+.timeline7-text10 {
   font-size: 18px;
   align-self: flex-end;
   font-style: normal;
+  font-family: "Didot-Bold";
   font-weight: 600;
   padding-right: var(--dl-space-space-unit);
-  padding-bottom: var(--dl-space-space-unit);
+  letter-spacing: 1px;
+  padding-bottom: var(--dl-space-space-halfunit);
 }
 .timeline7-icon2 {
   width: 24px;
   height: 24px;
   align-self: center;
 }
-.timeline7-text10 {
+.timeline7-text11 {
   font-size: 16px;
   align-self: flex-end;
   font-style: normal;
+  font-family: "Didot-Bold";
   font-weight: 600;
   line-height: 1.5;
-  padding-bottom: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
 }
-.timeline7-text11 {
-  font-size: 20px;
+.timeline7-text12 {
+  font-size: 16px;
+  align-self: flex-end;
+  font-style: normal;
+  font-family: "Didot-Bold";
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.timeline7-text13 {
+  font-size: 16px;
   align-self: flex-start;
   font-style: normal;
+  font-family: "HelveticaRounded-Bold";
   font-weight: 400;
   line-height: 1.5;
   padding-top: 0px;
   padding-bottom: 0px;
 }
-.timeline7-text12 {
+.timeline7-text14 {
   font-size: 16px;
   align-self: flex-start;
   font-style: normal;
+  font-family: "Helvetica";
   font-weight: 400;
   line-height: 1.5;
   padding-top: 0px;
@@ -276,9 +313,10 @@
   padding-bottom: var(--dl-space-space-unit);
   justify-content: flex-start;
 }
-.timeline7-text13 {
+.timeline7-text15 {
   font-size: 20px;
   font-style: italic;
+  font-family: "Helvetica-BoldOblique";
   font-weight: 600;
 }
 .timeline7-container13 {
@@ -288,44 +326,52 @@
   align-items: center;
   justify-content: flex-start;
 }
-.timeline7-text14 {
+.timeline7-text16 {
   align-self: flex-end;
   text-align: left;
+  font-family: "Didot-Bold";
   padding-right: var(--dl-space-space-unit);
+  letter-spacing: 1px;
 }
-.timeline7-text15 {
+.timeline7-text17 {
   font-size: 18px;
   align-self: flex-end;
   font-style: normal;
+  font-family: "Didot-Bold";
   font-weight: 600;
   padding-right: var(--dl-space-space-unit);
-  padding-bottom: var(--dl-space-space-unit);
+  letter-spacing: 1px;
+  padding-bottom: var(--dl-space-space-halfunit);
 }
 .timeline7-icon4 {
   width: 24px;
   height: 24px;
   align-self: center;
 }
-.timeline7-text16 {
+.timeline7-text18 {
   font-size: 16px;
   align-self: flex-end;
   font-style: normal;
+  font-family: "Didot-Bold";
   font-weight: 600;
   line-height: 1.5;
-  padding-bottom: var(--dl-space-space-unit);
+  letter-spacing: 1px;
+  padding-bottom: var(--dl-space-space-halfunit);
 }
-.timeline7-text17 {
-  font-size: 20px;
+.timeline7-text19 {
+  font-size: 16px;
   align-self: flex-start;
   font-style: normal;
+  font-family: "HelveticaRounded-Bold";
   font-weight: 400;
   line-height: 1.5;
   padding-bottom: 0px;
 }
-.timeline7-text18 {
+.timeline7-text20 {
   font-size: 16px;
   align-self: flex-start;
   font-style: normal;
+  font-family: "Helvetica";
   font-weight: 400;
   line-height: 1.5;
   padding-bottom: var(--dl-space-space-tripleunit);
@@ -343,10 +389,10 @@
   .timeline7-text02 {
     text-align: left;
   }
-  .timeline7-text08 {
+  .timeline7-text09 {
     text-align: left;
   }
-  .timeline7-text14 {
+  .timeline7-text16 {
     text-align: left;
   }
 }

@@ -9,10 +9,10 @@
 .cta14-max-width {
   gap: 80px;
   width: 100%;
-  height: auto;
+  height: var(--dl-size-size-maxcontent);
   display: flex;
   overflow: hidden;
-  max-width: 1400px;
+  max-width: 100%;
   align-self: center;
   align-items: flex-start;
   flex-shrink: 0;
@@ -72,7 +72,7 @@
   padding-bottom: var(--dl-space-space-doubleunit);
 }
 .cta14-container5 {
-  width: 100%;
+  width: 1453px;
   height: 100%;
   align-self: center;
   border-color: var(--dl-color-gray-black);

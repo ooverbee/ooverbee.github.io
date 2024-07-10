@@ -14,7 +14,7 @@
   height: 411px;
   display: flex;
   position: relative;
-  max-width: 1400px;
+  max-width: 100%;
   align-self: center;
   align-items: flex-end;
   flex-direction: column;
@@ -36,7 +36,7 @@
   height: 100%;
   font-size: 32px;
   text-align: center;
-  font-family: "Playfair Display";
+  font-family: "Didot-Bold";
 }
 .timeline3-timeline-container {
   width: 100%;
@@ -109,9 +109,11 @@
 .timeline3-text01 {
   width: 100%;
   text-align: center;
+  font-family: "Helvetica";
 }
 .timeline3-text02 {
   font-size: 22px;
+  font-family: "HelveticaRounded-Bold";
 }
 .timeline3-step3 {
   width: 10%;
@@ -166,9 +168,11 @@
 .timeline3-text03 {
   width: 100%;
   text-align: center;
+  font-family: "Helvetica";
 }
 .timeline3-text04 {
   font-size: 22px;
+  font-family: "HelveticaRounded-Bold";
 }
 .timeline3-step5 {
   width: 10%;
@@ -226,9 +230,11 @@
 .timeline3-text05 {
   width: 100%;
   text-align: center;
+  font-family: "Helvetica";
 }
 .timeline3-text06 {
   font-size: 22px;
+  font-family: "HelveticaRounded-Bold";
 }
 .timeline3-step7 {
   width: 10%;
@@ -323,10 +329,12 @@
 }
 .timeline3-text07 {
   font-size: 22px;
+  font-family: "HelveticaRounded-Bold";
 }
 .timeline3-text08 {
   width: 100%;
   text-align: center;
+  font-family: "Helvetica";
 }
 .timeline3-step21 {
   width: 10%;
@@ -448,10 +456,12 @@
 }
 .timeline3-text09 {
   font-size: 22px;
+  font-family: "HelveticaRounded-Bold";
 }
 .timeline3-text10 {
   width: 100%;
   text-align: center;
+  font-family: "Helvetica";
 }
 .timeline3-step41 {
   width: 10%;
@@ -573,10 +583,12 @@
 }
 .timeline3-text11 {
   font-size: 22px;
+  font-family: "HelveticaRounded-Bold";
 }
 .timeline3-text12 {
   width: 100%;
   text-align: center;
+  font-family: "Helvetica";
 }
 .timeline3-step61 {
   width: 10%;
@@ -698,10 +710,12 @@
 }
 .timeline3-text13 {
   font-size: 22px;
+  font-family: "HelveticaRounded-Bold";
 }
 .timeline3-text14 {
   width: 100%;
   text-align: center;
+  font-family: "Helvetica";
 }
 @media(max-width: 767px) {
   .timeline3-timeline-container {
@@ -1018,6 +1032,8 @@
 .timeline7-text {
   font-size: 32px;
   text-align: center;
+  font-family: "Didot-Bold";
+  letter-spacing: 1px;
 }
 .timeline7-timeline-container {
   flex: 1;
@@ -1076,6 +1092,7 @@
 .timeline7-text01 {
   font-size: 20px;
   font-style: italic;
+  font-family: "Helvetica-BoldOblique";
   font-weight: 600;
 }
 .timeline7-container05 {
@@ -1088,15 +1105,19 @@
 .timeline7-text02 {
   align-self: flex-end;
   text-align: left;
+  font-family: "Didot-Bold";
   padding-right: var(--dl-space-space-unit);
+  letter-spacing: 1px;
 }
 .timeline7-text03 {
   font-size: 18px;
   align-self: flex-end;
   font-style: normal;
+  font-family: "Didot-Bold";
   font-weight: 600;
   padding-right: var(--dl-space-space-unit);
-  padding-bottom: var(--dl-space-space-unit);
+  letter-spacing: 1px;
+  padding-bottom: var(--dl-space-space-halfunit);
 }
 .timeline7-icon {
   width: 24px;
@@ -1107,24 +1128,36 @@
   font-size: 16px;
   align-self: flex-end;
   font-style: normal;
+  font-family: "Didot-Bold";
   font-weight: 600;
   line-height: 1.5;
-  padding-bottom: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
 }
 .timeline7-text05 {
-  width: 90%;
-  font-size: 20px;
-  align-self: flex-start;
+  font-size: 16px;
+  align-self: flex-end;
   font-style: normal;
-  font-weight: 500;
+  font-family: "Didot-Bold";
+  font-weight: 600;
   line-height: 1.5;
-  padding-bottom: 0px;
+  letter-spacing: 1px;
+  padding-bottom: var(--dl-space-space-halfunit);
 }
 .timeline7-text06 {
   width: 90%;
   font-size: 16px;
   align-self: flex-start;
   font-style: normal;
+  font-family: "HelveticaRounded-Bold";
+  font-weight: 500;
+  line-height: 1.5;
+  padding-bottom: 0px;
+}
+.timeline7-text07 {
+  width: 90%;
+  align-self: flex-start;
+  font-style: normal;
+  font-family: "Helvetica";
   font-weight: 400;
   line-height: 1.5;
   padding-bottom: var(--dl-space-space-tripleunit);
@@ -1175,9 +1208,10 @@
   padding-bottom: var(--dl-space-space-unit);
   justify-content: flex-start;
 }
-.timeline7-text07 {
+.timeline7-text08 {
   font-size: 20px;
   font-style: italic;
+  font-family: "Helvetica-BoldOblique";
   font-weight: 600;
 }
 .timeline7-container09 {
@@ -1187,45 +1221,62 @@
   align-items: center;
   justify-content: flex-start;
 }
-.timeline7-text08 {
+.timeline7-text09 {
   align-self: flex-end;
   text-align: left;
+  font-family: "Didot-Bold";
   padding-right: var(--dl-space-space-unit);
+  letter-spacing: 1px;
 }
-.timeline7-text09 {
+.timeline7-text10 {
   font-size: 18px;
   align-self: flex-end;
   font-style: normal;
+  font-family: "Didot-Bold";
   font-weight: 600;
   padding-right: var(--dl-space-space-unit);
-  padding-bottom: var(--dl-space-space-unit);
+  letter-spacing: 1px;
+  padding-bottom: var(--dl-space-space-halfunit);
 }
 .timeline7-icon2 {
   width: 24px;
   height: 24px;
   align-self: center;
 }
-.timeline7-text10 {
+.timeline7-text11 {
   font-size: 16px;
   align-self: flex-end;
   font-style: normal;
+  font-family: "Didot-Bold";
   font-weight: 600;
   line-height: 1.5;
-  padding-bottom: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
 }
-.timeline7-text11 {
-  font-size: 20px;
+.timeline7-text12 {
+  font-size: 16px;
+  align-self: flex-end;
+  font-style: normal;
+  font-family: "Didot-Bold";
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.timeline7-text13 {
+  font-size: 16px;
   align-self: flex-start;
   font-style: normal;
+  font-family: "HelveticaRounded-Bold";
   font-weight: 400;
   line-height: 1.5;
   padding-top: 0px;
   padding-bottom: 0px;
 }
-.timeline7-text12 {
+.timeline7-text14 {
   font-size: 16px;
   align-self: flex-start;
   font-style: normal;
+  font-family: "Helvetica";
   font-weight: 400;
   line-height: 1.5;
   padding-top: 0px;
@@ -1277,9 +1328,10 @@
   padding-bottom: var(--dl-space-space-unit);
   justify-content: flex-start;
 }
-.timeline7-text13 {
+.timeline7-text15 {
   font-size: 20px;
   font-style: italic;
+  font-family: "Helvetica-BoldOblique";
   font-weight: 600;
 }
 .timeline7-container13 {
@@ -1289,44 +1341,52 @@
   align-items: center;
   justify-content: flex-start;
 }
-.timeline7-text14 {
+.timeline7-text16 {
   align-self: flex-end;
   text-align: left;
+  font-family: "Didot-Bold";
   padding-right: var(--dl-space-space-unit);
+  letter-spacing: 1px;
 }
-.timeline7-text15 {
+.timeline7-text17 {
   font-size: 18px;
   align-self: flex-end;
   font-style: normal;
+  font-family: "Didot-Bold";
   font-weight: 600;
   padding-right: var(--dl-space-space-unit);
-  padding-bottom: var(--dl-space-space-unit);
+  letter-spacing: 1px;
+  padding-bottom: var(--dl-space-space-halfunit);
 }
 .timeline7-icon4 {
   width: 24px;
   height: 24px;
   align-self: center;
 }
-.timeline7-text16 {
+.timeline7-text18 {
   font-size: 16px;
   align-self: flex-end;
   font-style: normal;
+  font-family: "Didot-Bold";
   font-weight: 600;
   line-height: 1.5;
-  padding-bottom: var(--dl-space-space-unit);
+  letter-spacing: 1px;
+  padding-bottom: var(--dl-space-space-halfunit);
 }
-.timeline7-text17 {
-  font-size: 20px;
+.timeline7-text19 {
+  font-size: 16px;
   align-self: flex-start;
   font-style: normal;
+  font-family: "HelveticaRounded-Bold";
   font-weight: 400;
   line-height: 1.5;
   padding-bottom: 0px;
 }
-.timeline7-text18 {
+.timeline7-text20 {
   font-size: 16px;
   align-self: flex-start;
   font-style: normal;
+  font-family: "Helvetica";
   font-weight: 400;
   line-height: 1.5;
   padding-bottom: var(--dl-space-space-tripleunit);
@@ -1344,10 +1404,10 @@
   .timeline7-text02 {
     text-align: left;
   }
-  .timeline7-text08 {
+  .timeline7-text09 {
     text-align: left;
   }
-  .timeline7-text14 {
+  .timeline7-text16 {
     text-align: left;
   }
 }
@@ -1370,7 +1430,8 @@
 }
 .features7-text {
   font-size: 32px;
-  font-family: "Playfair Display";
+  font-family: "Didot-Bold";
+  letter-spacing: 1px;
   padding-bottom: var(--dl-space-space-tripleunit);
 }
 .features7-container {
@@ -1395,18 +1456,26 @@
   height: 24px;
 }
 .features7-over-title1 {
+  font-family: "Didot";
   font-weight: 600;
+  letter-spacing: 1px;
 }
 .features7-title1 {
   text-align: center;
+  font-family: "Didot";
+  letter-spacing: 1px;
 }
 .features7-description1 {
   width: 100%;
   font-size: 20px;
   text-align: center;
+  font-family: "Didot";
+  letter-spacing: 1px;
 }
 .features7-description11 {
   text-align: center;
+  font-family: "Didot";
+  letter-spacing: 1px;
 }
 .features7-column1 {
   width: 36%;
@@ -1426,17 +1495,24 @@
   height: 24px;
 }
 .features7-over-title11 {
+  font-family: "Didot";
   font-weight: 600;
 }
 .features7-title2 {
   text-align: center;
+  font-family: "Didot";
+  letter-spacing: 1px;
 }
 .features7-description2 {
   font-size: 20px;
   text-align: center;
+  font-family: "Didot";
+  letter-spacing: 1px;
 }
 .features7-description21 {
   text-align: center;
+  font-family: "Didot";
+  letter-spacing: 1px;
 }
 .features7-column2 {
   width: 34%;
@@ -1454,20 +1530,30 @@
   height: 24px;
 }
 .features7-over-title3 {
+  font-family: "Didot";
   font-weight: 600;
+  letter-spacing: 1px;
 }
 .features7-title3 {
   text-align: center;
+  font-family: "Didot";
+  letter-spacing: 1px;
 }
 .features7-description3 {
   font-size: 20px;
   text-align: center;
+  font-family: "Didot";
+  letter-spacing: 1px;
 }
 .features7-description31 {
   text-align: center;
+  font-family: "Didot";
+  letter-spacing: 1px;
 }
 .features7-description32 {
   text-align: center;
+  font-family: "Didot";
+  letter-spacing: 1px;
 }
 @media(max-width: 991px) {
   .features7-content {
@@ -1483,22 +1569,15 @@
 
 .content-list2-container {
   width: 100%;
-  height: 992px;
+  height: 1073px;
   display: flex;
   position: relative;
   align-items: center;
+  padding-top: var(--dl-space-space-fiveunits);
   flex-direction: column;
 }
-.content-list2-max-width {
-  width: 100%;
-  display: flex;
-  max-width: 1400px;
-  align-items: center;
-  flex-direction: column;
-}
-.content-list2-content {
-  align-self: stretch;
-  align-items: flex-start;
+.content-list2-ul {
+  height: 1082px;
 }
 .content-list2-li {
   align-items: flex-start;
@@ -1506,6 +1585,8 @@
 .content-list2-heading1 {
   font-size: 32px;
   align-self: flex-start;
+  font-family: "Didot-Bold";
+  padding-bottom: var(--dl-space-space-tripleunit);
 }
 .content-list2-ul1 {
   align-items: flex-start;
@@ -1516,9 +1597,9 @@
 }
 .content-list2-heading2 {
   color: #076caf;
-  font-size: 20px;
+  font-size: 24px;
   font-style: normal;
-  font-family: "Playfair Display";
+  font-family: "Didot-Bold";
   font-weight: 600;
   text-decoration: none;
 }
@@ -1530,15 +1611,16 @@
 }
 .content-list2-content2 {
   font-size: 20px;
+  font-family: "Didot";
 }
 .content-list2-li02 {
   padding-bottom: var(--dl-space-space-tripleunit);
 }
 .content-list2-heading3 {
   color: #076caf;
-  font-size: 20px;
+  font-size: 24px;
   font-style: normal;
-  font-family: "Playfair Display";
+  font-family: "Didot-Bold";
   font-weight: 600;
   text-decoration: none;
 }
@@ -1550,15 +1632,16 @@
 }
 .content-list2-content3 {
   font-size: 20px;
+  font-family: "Didot";
 }
 .content-list2-li03 {
   padding-bottom: var(--dl-space-space-tripleunit);
 }
 .content-list2-heading4 {
   color: #076caf;
-  font-size: 20px;
+  font-size: 24px;
   font-style: normal;
-  font-family: "Playfair Display";
+  font-family: "Didot-Bold";
   font-weight: 600;
   text-decoration: none;
 }
@@ -1570,15 +1653,16 @@
 }
 .content-list2-content4 {
   font-size: 20px;
+  font-family: "Didot";
 }
 .content-list2-li04 {
   padding-bottom: var(--dl-space-space-tripleunit);
 }
 .content-list2-heading5 {
   color: #076caf;
-  font-size: 20px;
+  font-size: 24px;
   font-style: normal;
-  font-family: "Playfair Display";
+  font-family: "Didot-Bold";
   font-weight: 600;
   text-decoration: none;
 }
@@ -1590,15 +1674,16 @@
 }
 .content-list2-content5 {
   font-size: 20px;
+  font-family: "Didot";
 }
 .content-list2-li05 {
   padding-bottom: var(--dl-space-space-tripleunit);
 }
 .content-list2-heading6 {
   color: #076caf;
-  font-size: 20px;
+  font-size: 24px;
   font-style: normal;
-  font-family: "Playfair Display";
+  font-family: "Didot-Bold";
   font-weight: 600;
   text-decoration: none;
 }
@@ -1610,15 +1695,16 @@
 }
 .content-list2-content6 {
   font-size: 20px;
+  font-family: "Didot";
 }
 .content-list2-li06 {
   padding-bottom: var(--dl-space-space-tripleunit);
 }
 .content-list2-heading8 {
   color: #076caf;
-  font-size: 20px;
+  font-size: 24px;
   font-style: normal;
-  font-family: "Playfair Display";
+  font-family: "Didot-Bold";
   font-weight: 600;
   text-decoration: none;
 }
@@ -1630,15 +1716,16 @@
 }
 .content-list2-content8 {
   font-size: 20px;
+  font-family: "Didot";
 }
 .content-list2-li07 {
   padding-bottom: var(--dl-space-space-tripleunit);
 }
 .content-list2-heading9 {
   color: #076caf;
-  font-size: 20px;
+  font-size: 24px;
   font-style: normal;
-  font-family: "Playfair Display";
+  font-family: "Didot-Bold";
   font-weight: 600;
   text-decoration: none;
 }
@@ -1650,15 +1737,16 @@
 }
 .content-list2-content9 {
   font-size: 20px;
+  font-family: "Didot";
 }
 .content-list2-li08 {
   padding-bottom: var(--dl-space-space-tripleunit);
 }
 .content-list2-heading91 {
   color: #076caf;
-  font-size: 20px;
+  font-size: 24px;
   font-style: normal;
-  font-family: "Playfair Display";
+  font-family: "Didot-Bold";
   font-weight: 600;
   text-decoration: none;
 }
@@ -1670,16 +1758,17 @@
 }
 .content-list2-content91 {
   font-size: 20px;
+  font-family: "Didot";
 }
 .content-list2-li09 {
   padding-bottom: var(--dl-space-space-tripleunit);
 }
 .content-list2-heading92 {
   color: #076caf;
-  font-size: 20px;
+  font-size: 24px;
   font-style: normal;
   transition: 0.3s;
-  font-family: "Playfair Display";
+  font-family: "Didot-Bold";
   font-weight: 600;
   text-decoration: none;
 }
@@ -1691,6 +1780,7 @@
 }
 .content-list2-content92 {
   font-size: 20px;
+  font-family: "Didot";
 }
 @media(max-width: 767px) {
   .content-list2-ul1 {
@@ -1714,10 +1804,10 @@
 .cta14-max-width {
   gap: 80px;
   width: 100%;
-  height: auto;
+  height: var(--dl-size-size-maxcontent);
   display: flex;
   overflow: hidden;
-  max-width: 1400px;
+  max-width: 100%;
   align-self: center;
   align-items: flex-start;
   flex-shrink: 0;
@@ -1777,7 +1867,7 @@
   padding-bottom: var(--dl-space-space-doubleunit);
 }
 .cta14-container5 {
-  width: 100%;
+  width: 1453px;
   height: 100%;
   align-self: center;
   border-color: var(--dl-color-gray-black);
@@ -1806,7 +1896,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  background-color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-sarah-26677f);
 }
 .home-navbar {
   width: 100%;
@@ -1841,7 +1931,7 @@
 .home-link {
   color: #ffffff;
   font-size: 22px;
-  font-family: "Playfair Display";
+  font-family: "Helvetica";
   font-weight: 700;
   line-height: 1.55;
   margin-left: var(--dl-space-space-tripleunit);
@@ -1852,7 +1942,7 @@
 .home-link1 {
   color: #ffffff;
   font-size: 22px;
-  font-family: "Playfair Display";
+  font-family: "Helvetica";
   font-weight: 700;
   line-height: 1.55;
   margin-left: var(--dl-space-space-tripleunit);
@@ -1863,7 +1953,7 @@
 .home-link2 {
   color: #ffffff;
   font-size: 22px;
-  font-family: "Playfair Display";
+  font-family: "Helvetica";
   font-weight: 700;
   line-height: 1.55;
   margin-left: var(--dl-space-space-tripleunit);
@@ -1874,7 +1964,7 @@
 .home-link3 {
   color: #ffffff;
   font-size: 22px;
-  font-family: "Playfair Display";
+  font-family: "Helvetica";
   font-weight: 700;
   line-height: 1.55;
   padding-left: var(--dl-space-space-tripleunit);
@@ -1885,7 +1975,7 @@
 .home-link4 {
   color: #ffffff;
   font-size: 22px;
-  font-family: "Playfair Display";
+  font-family: "Helvetica";
   font-weight: 700;
   line-height: 1.55;
   padding-left: var(--dl-space-space-tripleunit);
@@ -1958,7 +2048,7 @@
 }
 .home-container2 {
   width: 100%;
-  height: 278px;
+  height: 303px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -1967,9 +2057,9 @@
 }
 .home-hero {
   width: 100%;
-  height: 100%;
+  height: 308px;
   display: flex;
-  max-width: var(--dl-size-size-maxcontent);
+  max-width: 100%;
   align-self: center;
   align-items: center;
   padding-left: var(--dl-space-space-tripleunit);
@@ -1980,7 +2070,7 @@
 }
 .home-hero-text-container {
   width: 100%;
-  height: 278px;
+  height: 308px;
   display: flex;
   align-items: center;
   padding-top: var(--dl-space-space-doubleunit);
@@ -1990,25 +2080,33 @@
 }
 .home-heading1 {
   color: #040404;
-  font-size: 32px;
+  font-size: 26px;
   align-self: center;
-  margin-top: var(--dl-space-space-doubleunit);
   text-align: center;
-  font-family: "Playfair Display";
+  font-family: "Didot-Bold";
   font-weight: 900;
   line-height: 1.22;
-  margin-bottom: var(--dl-space-space-doubleunit);
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-cardradius);
+  padding-right: var(--dl-space-space-unit);
+  letter-spacing: 1px;
+  padding-bottom: var(--dl-space-space-unit);
   text-transform: none;
-  text-decoration: none;
+  text-decoration: line-through none;
+  background-color: var(--dl-color-sarah-a9e0ec);
 }
 .home-text {
   color: var(--dl-color-gray-black);
-  font-size: 22px;
+  font-size: 26px;
   align-self: center;
   text-align: center;
-  font-family: "Playfair Display";
+  font-family: "Didot-Bold";
   font-weight: 600;
   line-height: 1.55;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-doubleunit);
+  padding-right: var(--dl-space-space-doubleunit);
   letter-spacing: 2px;
   padding-bottom: var(--dl-space-space-doubleunit);
   text-transform: none;
@@ -2020,11 +2118,10 @@
   font-size: 18px;
   align-self: center;
   text-align: center;
-  font-family: "Playfair Display";
+  font-family: "Didot";
   font-weight: 600;
   line-height: 1.55;
-  margin-bottom: var(--dl-space-space-tripleunit);
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   text-transform: none;
   text-decoration: none;
 }
@@ -2047,7 +2144,8 @@
   font-weight: 700;
 }
 .home-text15 {
-  font-size: 22px;
+  font-size: 18px;
+  font-weight: 700;
 }
 .home-container3 {
   width: 100%;

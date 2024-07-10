@@ -11,7 +11,8 @@
 }
 .features7-text {
   font-size: 32px;
-  font-family: "Playfair Display";
+  font-family: "Didot-Bold";
+  letter-spacing: 1px;
   padding-bottom: var(--dl-space-space-tripleunit);
 }
 .features7-container {
@@ -36,18 +37,26 @@
   height: 24px;
 }
 .features7-over-title1 {
+  font-family: "Didot";
   font-weight: 600;
+  letter-spacing: 1px;
 }
 .features7-title1 {
   text-align: center;
+  font-family: "Didot";
+  letter-spacing: 1px;
 }
 .features7-description1 {
   width: 100%;
   font-size: 20px;
   text-align: center;
+  font-family: "Didot";
+  letter-spacing: 1px;
 }
 .features7-description11 {
   text-align: center;
+  font-family: "Didot";
+  letter-spacing: 1px;
 }
 .features7-column1 {
   width: 36%;
@@ -67,17 +76,24 @@
   height: 24px;
 }
 .features7-over-title11 {
+  font-family: "Didot";
   font-weight: 600;
 }
 .features7-title2 {
   text-align: center;
+  font-family: "Didot";
+  letter-spacing: 1px;
 }
 .features7-description2 {
   font-size: 20px;
   text-align: center;
+  font-family: "Didot";
+  letter-spacing: 1px;
 }
 .features7-description21 {
   text-align: center;
+  font-family: "Didot";
+  letter-spacing: 1px;
 }
 .features7-column2 {
   width: 34%;
@@ -95,20 +111,30 @@
   height: 24px;
 }
 .features7-over-title3 {
+  font-family: "Didot";
   font-weight: 600;
+  letter-spacing: 1px;
 }
 .features7-title3 {
   text-align: center;
+  font-family: "Didot";
+  letter-spacing: 1px;
 }
 .features7-description3 {
   font-size: 20px;
   text-align: center;
+  font-family: "Didot";
+  letter-spacing: 1px;
 }
 .features7-description31 {
   text-align: center;
+  font-family: "Didot";
+  letter-spacing: 1px;
 }
 .features7-description32 {
   text-align: center;
+  font-family: "Didot";
+  letter-spacing: 1px;
 }
 @media(max-width: 991px) {
   .features7-content {

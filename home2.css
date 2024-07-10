@@ -14,7 +14,7 @@
   height: 411px;
   display: flex;
   position: relative;
-  max-width: 1400px;
+  max-width: 100%;
   align-self: center;
   align-items: flex-end;
   flex-direction: column;
@@ -36,7 +36,7 @@
   height: 100%;
   font-size: 32px;
   text-align: center;
-  font-family: "Playfair Display";
+  font-family: "Didot-Bold";
 }
 .timeline3-timeline-container {
   width: 100%;
@@ -109,9 +109,11 @@
 .timeline3-text01 {
   width: 100%;
   text-align: center;
+  font-family: "Helvetica";
 }
 .timeline3-text02 {
   font-size: 22px;
+  font-family: "HelveticaRounded-Bold";
 }
 .timeline3-step3 {
   width: 10%;
@@ -166,9 +168,11 @@
 .timeline3-text03 {
   width: 100%;
   text-align: center;
+  font-family: "Helvetica";
 }
 .timeline3-text04 {
   font-size: 22px;
+  font-family: "HelveticaRounded-Bold";
 }
 .timeline3-step5 {
   width: 10%;
@@ -226,9 +230,11 @@
 .timeline3-text05 {
   width: 100%;
   text-align: center;
+  font-family: "Helvetica";
 }
 .timeline3-text06 {
   font-size: 22px;
+  font-family: "HelveticaRounded-Bold";
 }
 .timeline3-step7 {
   width: 10%;
@@ -323,10 +329,12 @@
 }
 .timeline3-text07 {
   font-size: 22px;
+  font-family: "HelveticaRounded-Bold";
 }
 .timeline3-text08 {
   width: 100%;
   text-align: center;
+  font-family: "Helvetica";
 }
 .timeline3-step21 {
   width: 10%;
@@ -448,10 +456,12 @@
 }
 .timeline3-text09 {
   font-size: 22px;
+  font-family: "HelveticaRounded-Bold";
 }
 .timeline3-text10 {
   width: 100%;
   text-align: center;
+  font-family: "Helvetica";
 }
 .timeline3-step41 {
   width: 10%;
@@ -573,10 +583,12 @@
 }
 .timeline3-text11 {
   font-size: 22px;
+  font-family: "HelveticaRounded-Bold";
 }
 .timeline3-text12 {
   width: 100%;
   text-align: center;
+  font-family: "Helvetica";
 }
 .timeline3-step61 {
   width: 10%;
@@ -698,10 +710,12 @@
 }
 .timeline3-text13 {
   font-size: 22px;
+  font-family: "HelveticaRounded-Bold";
 }
 .timeline3-text14 {
   width: 100%;
   text-align: center;
+  font-family: "Helvetica";
 }
 @media(max-width: 767px) {
   .timeline3-timeline-container {
@@ -1171,22 +1185,15 @@
 
 .content-list2-container {
   width: 100%;
-  height: 992px;
+  height: 1073px;
   display: flex;
   position: relative;
   align-items: center;
+  padding-top: var(--dl-space-space-fiveunits);
   flex-direction: column;
 }
-.content-list2-max-width {
-  width: 100%;
-  display: flex;
-  max-width: 1400px;
-  align-items: center;
-  flex-direction: column;
-}
-.content-list2-content {
-  align-self: stretch;
-  align-items: flex-start;
+.content-list2-ul {
+  height: 1082px;
 }
 .content-list2-li {
   align-items: flex-start;
@@ -1194,6 +1201,8 @@
 .content-list2-heading1 {
   font-size: 32px;
   align-self: flex-start;
+  font-family: "Didot-Bold";
+  padding-bottom: var(--dl-space-space-tripleunit);
 }
 .content-list2-ul1 {
   align-items: flex-start;
@@ -1204,9 +1213,9 @@
 }
 .content-list2-heading2 {
   color: #076caf;
-  font-size: 20px;
+  font-size: 24px;
   font-style: normal;
-  font-family: "Playfair Display";
+  font-family: "Didot-Bold";
   font-weight: 600;
   text-decoration: none;
 }
@@ -1218,15 +1227,16 @@
 }
 .content-list2-content2 {
   font-size: 20px;
+  font-family: "Didot";
 }
 .content-list2-li02 {
   padding-bottom: var(--dl-space-space-tripleunit);
 }
 .content-list2-heading3 {
   color: #076caf;
-  font-size: 20px;
+  font-size: 24px;
   font-style: normal;
-  font-family: "Playfair Display";
+  font-family: "Didot-Bold";
   font-weight: 600;
   text-decoration: none;
 }
@@ -1238,15 +1248,16 @@
 }
 .content-list2-content3 {
   font-size: 20px;
+  font-family: "Didot";
 }
 .content-list2-li03 {
   padding-bottom: var(--dl-space-space-tripleunit);
 }
 .content-list2-heading4 {
   color: #076caf;
-  font-size: 20px;
+  font-size: 24px;
   font-style: normal;
-  font-family: "Playfair Display";
+  font-family: "Didot-Bold";
   font-weight: 600;
   text-decoration: none;
 }
@@ -1258,15 +1269,16 @@
 }
 .content-list2-content4 {
   font-size: 20px;
+  font-family: "Didot";
 }
 .content-list2-li04 {
   padding-bottom: var(--dl-space-space-tripleunit);
 }
 .content-list2-heading5 {
   color: #076caf;
-  font-size: 20px;
+  font-size: 24px;
   font-style: normal;
-  font-family: "Playfair Display";
+  font-family: "Didot-Bold";
   font-weight: 600;
   text-decoration: none;
 }
@@ -1278,15 +1290,16 @@
 }
 .content-list2-content5 {
   font-size: 20px;
+  font-family: "Didot";
 }
 .content-list2-li05 {
   padding-bottom: var(--dl-space-space-tripleunit);
 }
 .content-list2-heading6 {
   color: #076caf;
-  font-size: 20px;
+  font-size: 24px;
   font-style: normal;
-  font-family: "Playfair Display";
+  font-family: "Didot-Bold";
   font-weight: 600;
   text-decoration: none;
 }
@@ -1298,15 +1311,16 @@
 }
 .content-list2-content6 {
   font-size: 20px;
+  font-family: "Didot";
 }
 .content-list2-li06 {
   padding-bottom: var(--dl-space-space-tripleunit);
 }
 .content-list2-heading8 {
   color: #076caf;
-  font-size: 20px;
+  font-size: 24px;
   font-style: normal;
-  font-family: "Playfair Display";
+  font-family: "Didot-Bold";
   font-weight: 600;
   text-decoration: none;
 }
@@ -1318,15 +1332,16 @@
 }
 .content-list2-content8 {
   font-size: 20px;
+  font-family: "Didot";
 }
 .content-list2-li07 {
   padding-bottom: var(--dl-space-space-tripleunit);
 }
 .content-list2-heading9 {
   color: #076caf;
-  font-size: 20px;
+  font-size: 24px;
   font-style: normal;
-  font-family: "Playfair Display";
+  font-family: "Didot-Bold";
   font-weight: 600;
   text-decoration: none;
 }
@@ -1338,15 +1353,16 @@
 }
 .content-list2-content9 {
   font-size: 20px;
+  font-family: "Didot";
 }
 .content-list2-li08 {
   padding-bottom: var(--dl-space-space-tripleunit);
 }
 .content-list2-heading91 {
   color: #076caf;
-  font-size: 20px;
+  font-size: 24px;
   font-style: normal;
-  font-family: "Playfair Display";
+  font-family: "Didot-Bold";
   font-weight: 600;
   text-decoration: none;
 }
@@ -1358,16 +1374,17 @@
 }
 .content-list2-content91 {
   font-size: 20px;
+  font-family: "Didot";
 }
 .content-list2-li09 {
   padding-bottom: var(--dl-space-space-tripleunit);
 }
 .content-list2-heading92 {
   color: #076caf;
-  font-size: 20px;
+  font-size: 24px;
   font-style: normal;
   transition: 0.3s;
-  font-family: "Playfair Display";
+  font-family: "Didot-Bold";
   font-weight: 600;
   text-decoration: none;
 }
@@ -1379,6 +1396,7 @@
 }
 .content-list2-content92 {
   font-size: 20px;
+  font-family: "Didot";
 }
 @media(max-width: 767px) {
   .content-list2-ul1 {
