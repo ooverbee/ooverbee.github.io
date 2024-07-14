@@ -1,0 +1,465 @@
+.employment-container {
+  height: 754px;
+}
+.employment-ul {
+  height: 598px;
+  padding-top: var(--dl-space-space-fourunits);
+}
+.employment-li {
+  align-items: flex-start;
+}
+.employment-heading1 {
+  font-size: 32px;
+  align-self: flex-start;
+  font-family: "Didot-Bold";
+  padding-bottom: var(--dl-space-space-tripleunit);
+}
+.employment-max-width {
+  gap: 32px;
+  width: 1426px;
+  display: flex;
+  position: relative;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.employment-timeline-container {
+  flex: 1;
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.employment-step1 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+.employment-container01 {
+  flex: 1;
+  left: var(--dl-space-space-halfunit);
+  width: auto;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.employment-container02 {
+  width: 12px;
+  height: 12px;
+  margin: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-round);
+  background-color: #000000;
+}
+.employment-progress0 {
+  width: auto;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #000000;
+}
+.employment-container03 {
+  gap: var(--dl-space-space-unit);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 48px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: flex-start;
+}
+.employment-text {
+  font-size: 20px;
+  font-style: italic;
+  font-family: "Helvetica-BoldOblique";
+  font-weight: 600;
+}
+.employment-container04 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.employment-text01 {
+  align-self: flex-end;
+  text-align: left;
+  font-family: "Didot-Bold";
+  padding-right: var(--dl-space-space-unit);
+  letter-spacing: 1px;
+}
+.employment-text02 {
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: normal;
+  font-family: "Didot-Bold";
+  font-weight: 600;
+  padding-right: var(--dl-space-space-unit);
+  letter-spacing: 1px;
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.employment-icon {
+  width: 24px;
+  height: 24px;
+  align-self: center;
+}
+.employment-text03 {
+  font-size: 16px;
+  align-self: flex-end;
+  font-style: normal;
+  font-family: "Didot-Bold";
+  font-weight: 600;
+  line-height: 1.5;
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.employment-text04 {
+  font-size: 16px;
+  align-self: flex-end;
+  font-style: normal;
+  font-family: "Didot-Bold";
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.employment-text05 {
+  width: 90%;
+  font-size: 16px;
+  align-self: flex-start;
+  font-style: normal;
+  font-family: "HelveticaRounded-Bold";
+  font-weight: 500;
+  line-height: 1.5;
+  padding-bottom: 0px;
+}
+.employment-text06 {
+  width: 90%;
+  align-self: flex-start;
+  font-style: normal;
+  font-family: "Helvetica";
+  font-weight: 400;
+  line-height: 1.5;
+  padding-bottom: var(--dl-space-space-tripleunit);
+}
+.employment-step2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+.employment-container05 {
+  flex: 1;
+  left: var(--dl-space-space-halfunit);
+  width: auto;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.employment-container06 {
+  width: 12px;
+  height: 12px;
+  margin: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-round);
+  background-color: #000000;
+}
+.employment-progress01 {
+  width: auto;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #000000;
+}
+.employment-container07 {
+  gap: var(--dl-space-space-unit);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 48px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: flex-start;
+}
+.employment-text07 {
+  font-size: 20px;
+  font-style: italic;
+  font-family: "Helvetica-BoldOblique";
+  font-weight: 600;
+}
+.employment-container08 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.employment-text08 {
+  align-self: flex-end;
+  text-align: left;
+  font-family: "Didot-Bold";
+  padding-right: var(--dl-space-space-unit);
+  letter-spacing: 1px;
+}
+.employment-text09 {
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: normal;
+  font-family: "Didot-Bold";
+  font-weight: 600;
+  padding-right: var(--dl-space-space-unit);
+  letter-spacing: 1px;
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.employment-icon2 {
+  width: 24px;
+  height: 24px;
+  align-self: center;
+}
+.employment-text10 {
+  font-size: 16px;
+  align-self: flex-end;
+  font-style: normal;
+  font-family: "Didot-Bold";
+  font-weight: 600;
+  line-height: 1.5;
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.employment-text11 {
+  font-size: 16px;
+  align-self: flex-end;
+  font-style: normal;
+  font-family: "Didot-Bold";
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.employment-text12 {
+  font-size: 16px;
+  align-self: flex-start;
+  font-style: normal;
+  font-family: "HelveticaRounded-Bold";
+  font-weight: 400;
+  line-height: 1.5;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.employment-text13 {
+  font-size: 16px;
+  align-self: flex-start;
+  font-style: normal;
+  font-family: "Helvetica";
+  font-weight: 400;
+  line-height: 1.5;
+  padding-top: 0px;
+  padding-bottom: var(--dl-space-space-tripleunit);
+}
+.employment-step3 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.employment-container09 {
+  flex: 1;
+  left: var(--dl-space-space-halfunit);
+  width: auto;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.employment-container10 {
+  width: 12px;
+  height: 12px;
+  margin: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-round);
+  background-color: #000000;
+}
+.employment-progress02 {
+  width: auto;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #000000;
+}
+.employment-container11 {
+  gap: var(--dl-space-space-unit);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 48px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: flex-start;
+}
+.employment-text14 {
+  font-size: 20px;
+  font-style: italic;
+  font-family: "Helvetica-BoldOblique";
+  font-weight: 600;
+}
+.employment-container12 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.employment-text15 {
+  align-self: flex-end;
+  text-align: left;
+  font-family: "Didot-Bold";
+  padding-right: var(--dl-space-space-unit);
+  letter-spacing: 1px;
+}
+.employment-text16 {
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: normal;
+  font-family: "Didot-Bold";
+  font-weight: 600;
+  padding-right: var(--dl-space-space-unit);
+  letter-spacing: 1px;
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.employment-icon4 {
+  width: 24px;
+  height: 24px;
+  align-self: center;
+}
+.employment-text17 {
+  font-size: 16px;
+  align-self: flex-end;
+  font-style: normal;
+  font-family: "Didot-Bold";
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.employment-text18 {
+  font-size: 16px;
+  align-self: flex-start;
+  font-style: normal;
+  font-family: "HelveticaRounded-Bold";
+  font-weight: 400;
+  line-height: 1.5;
+  padding-bottom: 0px;
+}
+.employment-text19 {
+  font-size: 16px;
+  align-self: flex-start;
+  font-style: normal;
+  font-family: "Helvetica";
+  font-weight: 400;
+  line-height: 1.5;
+  padding-bottom: var(--dl-space-space-tripleunit);
+}
+@media(max-width: 1600px) {
+  .employment-ul {
+    width: 1545px;
+    height: 687px;
+    padding: var(--dl-space-space-fourunits);
+  }
+}
+@media(max-width: 1200px) {
+  .employment-ul {
+    width: 1200px;
+    height: 710px;
+    padding: var(--dl-space-space-fourunits);
+  }
+  .employment-li {
+    width: 100%;
+  }
+  .employment-max-width {
+    width: 100%;
+  }
+}
+@media(max-width: 991px) {
+  .employment-container {
+    height: 809px;
+    margin-bottom: 1px;
+  }
+  .employment-ul {
+    width: 991px;
+    height: 733px;
+    padding: var(--dl-space-space-fourunits);
+  }
+  .employment-li {
+    width: 100%;
+  }
+  .employment-max-width {
+    gap: 32px;
+  }
+}
+@media(max-width: 767px) {
+  .employment-container {
+    height: 1014px;
+  }
+  .employment-ul {
+    width: 767px;
+    height: 975px;
+    padding: var(--dl-space-space-fourunits);
+  }
+  .employment-max-width {
+    padding: var(--dl-space-space-fourunits);
+    flex-direction: column;
+  }
+  .employment-text01 {
+    width: 162px;
+    font-size: 24px;
+    text-align: left;
+  }
+  .employment-text08 {
+    width: 270px;
+    font-size: 24px;
+    text-align: left;
+  }
+  .employment-text15 {
+    font-size: 24px;
+    text-align: left;
+  }
+}
+@media(max-width: 479px) {
+  .employment-container {
+    height: 1186px;
+  }
+  .employment-ul {
+    width: 479px;
+    height: 100%;
+  }
+  .employment-max-width {
+    padding: var(--dl-space-space-unit);
+  }
+  .employment-timeline-container {
+    width: 369px;
+  }
+  .employment-step1 {
+    width: 100%;
+  }
+}
