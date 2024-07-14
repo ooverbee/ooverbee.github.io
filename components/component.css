@@ -1,8 +1,0 @@
-.app-component-container {
-  display: flex;
-  position: relative;
-}
-.app-component-image {
-  width: 401px;
-  object-fit: cover;
-}
