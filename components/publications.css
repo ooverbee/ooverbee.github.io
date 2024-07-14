@@ -1,0 +1,243 @@
+.publications-container {
+  width: 100%;
+  height: 967px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+}
+.publications-ul {
+  height: 1082px;
+}
+.publications-li {
+  align-items: flex-start;
+}
+.publications-heading1 {
+  font-size: 32px;
+  align-self: flex-start;
+  font-family: "Didot-Bold";
+  padding-bottom: var(--dl-space-space-tripleunit);
+}
+.publications-ul1 {
+  align-items: flex-start;
+  padding-left: var(--dl-space-space-fiveunits);
+}
+.publications-li01 {
+  padding-bottom: var(--dl-space-space-tripleunit);
+}
+.publications-heading2 {
+  color: #076caf;
+  font-size: 24px;
+  font-style: normal;
+  font-family: "Didot-Bold";
+  font-weight: 600;
+  text-decoration: none;
+}
+.publications-heading2:hover {
+  color: #238bd2;
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: underline       none;
+}
+.publications-content2 {
+  font-size: 20px;
+  font-family: "Didot";
+}
+.publications-li02 {
+  padding-bottom: var(--dl-space-space-tripleunit);
+}
+.publications-heading3 {
+  color: #076caf;
+  font-size: 24px;
+  font-style: normal;
+  font-family: "Didot-Bold";
+  font-weight: 600;
+  text-decoration: none;
+}
+.publications-heading3:hover {
+  color: #238bd2;
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: underline       none;
+}
+.publications-content3 {
+  font-size: 20px;
+  font-family: "Didot";
+}
+.publications-li03 {
+  padding-bottom: var(--dl-space-space-tripleunit);
+}
+.publications-heading4 {
+  color: #076caf;
+  font-size: 24px;
+  font-style: normal;
+  font-family: "Didot-Bold";
+  font-weight: 600;
+  text-decoration: none;
+}
+.publications-heading4:hover {
+  color: #238bd2;
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: underline       none;
+}
+.publications-content4 {
+  font-size: 20px;
+  font-family: "Didot";
+}
+.publications-li04 {
+  padding-bottom: var(--dl-space-space-tripleunit);
+}
+.publications-heading5 {
+  color: #076caf;
+  font-size: 24px;
+  font-style: normal;
+  font-family: "Didot-Bold";
+  font-weight: 600;
+  text-decoration: none;
+}
+.publications-heading5:hover {
+  color: #238bd2;
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: underline       none;
+}
+.publications-content5 {
+  font-size: 20px;
+  font-family: "Didot";
+}
+.publications-li05 {
+  padding-bottom: var(--dl-space-space-tripleunit);
+}
+.publications-heading6 {
+  color: #076caf;
+  font-size: 24px;
+  font-style: normal;
+  font-family: "Didot-Bold";
+  font-weight: 600;
+  text-decoration: none;
+}
+.publications-heading6:hover {
+  color: #238bd2;
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: underline       none;
+}
+.publications-content6 {
+  font-size: 20px;
+  font-family: "Didot";
+}
+.publications-li06 {
+  padding-bottom: var(--dl-space-space-tripleunit);
+}
+.publications-heading8 {
+  color: #076caf;
+  font-size: 24px;
+  font-style: normal;
+  font-family: "Didot-Bold";
+  font-weight: 600;
+  text-decoration: none;
+}
+.publications-heading8:hover {
+  color: #238bd2;
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: underline       none;
+}
+.publications-content8 {
+  font-size: 20px;
+  font-family: "Didot";
+}
+.publications-li07 {
+  padding-bottom: var(--dl-space-space-tripleunit);
+}
+.publications-heading9 {
+  color: #076caf;
+  font-size: 24px;
+  font-style: normal;
+  font-family: "Didot-Bold";
+  font-weight: 600;
+  text-decoration: none;
+}
+.publications-heading9:hover {
+  color: #238bd2;
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: underline       none;
+}
+.publications-content9 {
+  font-size: 20px;
+  font-family: "Didot";
+}
+.publications-li08 {
+  padding-bottom: var(--dl-space-space-tripleunit);
+}
+.publications-heading91 {
+  color: #076caf;
+  font-size: 24px;
+  font-style: normal;
+  font-family: "Didot-Bold";
+  font-weight: 600;
+  text-decoration: none;
+}
+.publications-heading91:hover {
+  color: #238bd2;
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: underline       none;
+}
+.publications-content91 {
+  font-size: 20px;
+  font-family: "Didot";
+}
+.publications-li09 {
+  padding-bottom: var(--dl-space-space-tripleunit);
+}
+.publications-heading92 {
+  color: #076caf;
+  font-size: 24px;
+  font-style: normal;
+  transition: 0.3s;
+  font-family: "Didot-Bold";
+  font-weight: 600;
+  text-decoration: none;
+}
+.publications-heading92:hover {
+  color: #238bd2;
+  font-style: normal;
+  font-weight: 600;
+  text-decoration:        none;
+}
+.publications-content92 {
+  font-size: 20px;
+  font-family: "Didot";
+}
+@media(max-width: 1200px) {
+  .publications-container {
+    height: 1118px;
+  }
+}
+@media(max-width: 767px) {
+  .publications-container {
+    height: 1516px;
+  }
+  .publications-ul {
+    height: 1466px;
+  }
+  .publications-ul1 {
+    padding-left: 48px;
+  }
+}
+@media(max-width: 479px) {
+  .publications-container {
+    height: 2296px;
+    justify-content: flex-start;
+  }
+  .publications-ul {
+    height: 2217px;
+  }
+  .publications-ul1 {
+    padding-left: 24px;
+  }
+}
